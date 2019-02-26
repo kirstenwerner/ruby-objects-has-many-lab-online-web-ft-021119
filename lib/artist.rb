@@ -23,7 +23,7 @@ class Artist
   end
   
   def self.song_count
-    @total_songs = @songs.collect{|song| song.name}
+    @total_songs = @@songs.collect{|song| song.name}
     @total_songs.length  
   end 
   
