@@ -23,7 +23,7 @@ class Author
   end
   
   def self.post_count
-    post_titles = @@posts.collect {|x| x.name}
+    post_titles = @@posts.collect {|x| x.title}
     post_titles.length
   end
   
